@@ -2,62 +2,48 @@
 
 ## Objective
 
-To create and manage user accounts in the Microsoft 365 TechLab tenant, simulating common IT Service Desk onboarding tasks.
+To create and manage user accounts within Microsoft 365 and understand the user lifecycle from creation to administration.
 
 ---
 
 ## Environment
 
-- Tenant: TechLab (Default domain: techlab008.onmicrosoft.com)
+- Tenant: TechLab
+- Default Domain: techlab008.onmicrosoft.com
 - Platform: Microsoft 365 Admin Center
 - Subscription: Microsoft 365 Business Basic
 
 ---
 
-## Tasks Performed
+## Scenario
 
-### 1. Created a New User
+A small company environment was simulated using users from different departments.
 
-A test user account was created using the Microsoft 365 Admin Center.
+The following users were created for administration and support exercises.
 
-- Name: Test User1  
-- Username: test.user1@techlab008.onmicrosoft.com  
+| User | Department |
+|--------|--------|
+| John Smith | Sales |
+| Sarah Jones | Operations |
+| Manager User | Management |
 
 ---
 
-### 2. User Setup (Basics)
+## Tasks Performed
 
-Configured the user's identity information during account creation:
+### 1. Created User Accounts
 
-- First name
-- Last name
-- Display name
-- User Principal Name (UPN)
+Created user accounts through the Microsoft 365 Admin Center using the user creation wizard.
 
 Evidence:
 
-![User Basics](screenshots/add-user-basics.png)
+![Add User Form](screenshots/add-user-form.png)
 
 ---
 
-### 3. Assigned Microsoft 365 Business Basic Licence
+### 2. Verified User Creation
 
-A Microsoft 365 Business Basic licence was assigned to the user account to enable access to Microsoft 365 services.
-
-The licence assignment allows the user to access services such as:
-
-- Outlook
-- Microsoft Teams
-- OneDrive
-- SharePoint
-
-The licence assignment was verified in the Microsoft 365 Admin Center.
-
----
-
-### 4. Account Creation Confirmation
-
-The system confirmed successful creation of the user account.
+Confirmed successful account creation through the Microsoft 365 Admin Center.
 
 Evidence:
 
@@ -65,36 +51,59 @@ Evidence:
 
 ---
 
-### 5. Verified User in Active Users
+### 3. Assigned Microsoft 365 Licences
 
-Confirmed that the new user appears in the Active Users list and is available for administration.
+Assigned Microsoft 365 Business Basic licences to the newly created users.
+
+Licence assignment enables access to Microsoft 365 services such as:
+
+- Outlook
+- Microsoft Teams
+- OneDrive
+- SharePoint
 
 Evidence:
 
-![Active Users List](screenshots/active-users.png)
+![Licence Assignment](screenshots/license-assignment.png)
+
+---
+
+### 4. Verified Active Users
+
+Confirmed that all newly created accounts appear in the Active Users list and are available for administration.
+
+Evidence:
+
+![Active Users List](screenshots/active-users-list.png)
 
 ---
 
 ## Key Learnings
 
-- User creation is a core IT support responsibility.
-- User Principal Names (UPNs) must match the tenant domain.
-- Microsoft 365 licences are required to access Microsoft 365 services.
+- User creation is a fundamental Microsoft 365 administration task.
+- Microsoft 365 licences are required before users can access cloud services.
 - The Active Users page is the primary location for managing user accounts.
-- Microsoft 365 provides a structured user onboarding process.
+- Proper user onboarding includes account creation and licence assignment.
+- Microsoft 365 provides centralized identity management.
 
 ---
 
-## Notes
+## Skills Demonstrated
 
-- Screenshots were captured in PNG format.
-- All images are stored in the `/screenshots` folder within this project.
-- This exercise simulates a typical user onboarding task performed by an IT Support Analyst or Microsoft 365 Administrator.
+- User account creation
+- Licence assignment
+- Microsoft 365 Admin Center navigation
+- Identity management fundamentals
+- Administrative verification procedures
+- Technical documentation using GitHub and Markdown
 
 ---
 
-## Next Step
+## Next Tasks
 
-Password Reset and Account Management (Helpdesk Simulation)
+The following user administration tasks will be completed as part of this project:
 
-The next exercise will simulate a common Service Desk request involving password reset procedures and account verification.
+- Password reset
+- Block sign-in
+- Delete user
+- Restore deleted user
