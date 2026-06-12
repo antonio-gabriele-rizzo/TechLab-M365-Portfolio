@@ -31,7 +31,7 @@ Screenshots
 
 
 <img width="1856" height="896" alt="MS 365 Dashboard" src="https://github.com/user-attachments/assets/5079ca16-5686-4baa-81d6-deaca525e056" />
-### Microsoft 365 Admin Center Dashboard
+Microsoft 365 Admin Center Dashboard
 Initial view of the TechLab tenant administration portal.
 
 
