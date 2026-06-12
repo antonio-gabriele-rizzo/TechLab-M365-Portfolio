@@ -12,7 +12,7 @@ To document the initial setup and configuration of the Microsoft 365 tenant **Te
 
 ---
 
-## 🛠️ Tasks Performed
+## Tasks Performed
 
 ### 1. Accessed Microsoft 365 Admin Center
 Logged in and reviewed the main dashboard.
