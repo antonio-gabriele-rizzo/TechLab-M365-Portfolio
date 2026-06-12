@@ -29,7 +29,7 @@ Configured user identity details during creation:
 - Display name
 - Username (UPN)
 
-📸 Evidence:
+Evidence:
 ![User Basics](screenshots/add-user-basics.png)
 
 ---
@@ -37,7 +37,7 @@ Configured user identity details during creation:
 ### 3. Account Creation Confirmation
 The system confirmed successful creation of the user account.
 
-📸 Evidence:
+Evidence:
 ![User Created Confirmation](screenshots/user-created.png)
 
 ---
@@ -45,7 +45,7 @@ The system confirmed successful creation of the user account.
 ### 4. Verified User in Active Users
 Confirmed that the new user appears in the Active Users list.
 
-📸 Evidence:
+Evidence:
 ![Active Users List](screenshots/active-users.png)
 
 ---
