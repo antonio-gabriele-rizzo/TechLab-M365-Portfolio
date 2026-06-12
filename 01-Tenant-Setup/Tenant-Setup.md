@@ -4,6 +4,8 @@
 
 To document the initial configuration and exploration of a Microsoft 365 tenant and gain familiarity with the Microsoft 365 Admin Center.
 
+This project establishes the foundation for all future Microsoft 365 administration activities by introducing the tenant structure, user management concepts, licence management, and administrative roles.
+
 ---
 
 ## Environment
@@ -17,7 +19,9 @@ To document the initial configuration and exploration of a Microsoft 365 tenant 
 
 ## Overview
 
-A Microsoft 365 tenant represents an organization's dedicated cloud environment within Microsoft's services.
+A Microsoft 365 tenant represents an organisation's dedicated cloud environment within Microsoft's services.
+
+The tenant contains users, licences, security settings, administrative roles, and cloud services such as Exchange Online, SharePoint, OneDrive, and Microsoft Teams.
 
 The TechLab tenant was created as a learning environment to develop practical Microsoft 365 administration skills and document hands-on experience.
 
@@ -27,7 +31,9 @@ The TechLab tenant was created as a learning environment to develop practical Mi
 
 ### 1. Accessed Microsoft 365 Admin Center
 
-Logged into the Microsoft 365 Admin Center and reviewed the dashboard layout and navigation options available to administrators.
+The Microsoft 365 Admin Center is the primary portal used to manage users, licences, security settings, and Microsoft 365 services.
+
+After signing in, I reviewed the dashboard layout and navigation structure to understand where administrative tasks are performed.
 
 Evidence:
 
@@ -37,7 +43,17 @@ Evidence:
 
 ### 2. Reviewed Active Users
 
-Navigated to the Active Users section to understand how Microsoft 365 user accounts are managed.
+The Active Users page is the primary location for managing user accounts within Microsoft 365.
+
+Administrators use this area to:
+
+- Create users
+- Reset passwords
+- Assign licences
+- Block sign-in
+- Delete and restore user accounts
+
+At the time of the initial tenant setup, only the administrative account existed within the tenant.
 
 Evidence:
 
@@ -47,7 +63,16 @@ Evidence:
 
 ### 3. Reviewed Licence Management
 
-Examined available Microsoft 365 licences and reviewed how licences are assigned to users.
+Microsoft 365 licences determine which services and features users can access.
+
+For example, a Microsoft 365 Business Basic licence provides access to:
+
+- Outlook
+- Microsoft Teams
+- OneDrive
+- SharePoint
+
+Administrators must assign an appropriate licence before a user can access Microsoft 365 services.
 
 Evidence:
 
@@ -57,7 +82,18 @@ Evidence:
 
 ### 4. Reviewed Administrative Roles
 
-Explored built-in Microsoft 365 administrative roles and their associated responsibilities.
+Microsoft 365 uses Role-Based Access Control (RBAC) to manage administrative permissions.
+
+Rather than assigning full administrative access to every user, Microsoft provides specialised roles that grant only the permissions required for specific tasks.
+
+Examples of common administrative roles include:
+
+- Global Administrator – Full administrative control of the Microsoft 365 tenant.
+- User Administrator – Manages users, passwords, and group memberships.
+- Global Reader – Read-only access to administrative information.
+- Exchange Administrator – Manages Exchange Online services and settings.
+
+This approach supports the Principle of Least Privilege by reducing unnecessary administrative access.
 
 Evidence:
 
@@ -71,6 +107,7 @@ Evidence:
 - The Microsoft 365 Admin Center serves as the primary administration portal.
 - User accounts require appropriate licences to access Microsoft 365 services.
 - Administrative roles control permissions and access within the tenant.
+- Microsoft 365 uses Role-Based Access Control (RBAC) to manage administrative permissions.
 - Understanding the tenant structure is essential before performing administrative tasks.
 
 ---
@@ -81,11 +118,34 @@ Evidence:
 - Tenant administration fundamentals
 - User management overview
 - Licence management awareness
+- Role-Based Access Control (RBAC) awareness
 - Administrative role awareness
 - Technical documentation using GitHub and Markdown
 
 ---
 
+## Summary
+
+This project provided an introduction to the Microsoft 365 environment and established a foundation for future administration tasks.
+
+By exploring the Admin Center, Active Users, Licence Management, and Administrative Roles, I gained a better understanding of how Microsoft 365 environments are structured and managed.
+
+---
+
+## Next Project
+
+### User Management
+
+The next project focuses on:
+
+- User creation
+- Licence assignment
+- Password reset
+- Block sign-in
+- User deletion
+- User restoration
+
+These tasks simulate common responsibilities performed by IT Support Technicians and Microsoft 365 Administrators.
 ## Next Project
 
 User Management
