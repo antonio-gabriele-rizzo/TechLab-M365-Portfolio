@@ -2,104 +2,193 @@
 
 ## About This Project
 
-Welcome to my TechLab Microsoft 365 portfolio.
+Welcome to my TechLab Microsoft 365 Administration Portfolio.
 
-This repository documents my hands-on learning journey in Microsoft 365 administration, focusing on real-world IT support and cloud administration tasks using a trial Microsoft 365 tenant.
+This repository documents my hands-on learning journey in Microsoft 365 administration using a dedicated Microsoft 365 Business Basic tenant.
 
-The goal of this project is to simulate Tier 1 / Junior Microsoft 365 Administrator responsibilities and build practical IT support skills.
+The objective of this project is to develop practical skills in Microsoft 365 administration, user management, collaboration services, security, and PowerShell automation while building a portfolio of documented administrative tasks.
 
 ---
 
 ## Objectives
 
-- Understand Microsoft 365 Admin Center structure
-- Manage users, licenses, and roles
-- Practice IT support workflows
-- Build documentation skills using GitHub
-- Simulate real helpdesk and system administration tasks
+- Understand Microsoft 365 administration fundamentals
+- Develop practical user and licence management skills
+- Learn Microsoft 365 collaboration services
+- Explore security and identity management concepts
+- Gain experience with administrative PowerShell tools
+- Build professional technical documentation using GitHub and Markdown
 
 ---
 
 ## Environment
 
-- Tenant: TechLab008 (Microsoft 365 Trial Tenant)
+- Tenant Name: TechLab
+- Default Domain: techlab008.onmicrosoft.com
+- Subscription: Microsoft 365 Business Basic
 - Platform: Microsoft 365 Admin Center
-- License: Microsoft 365 Business Basic
-- Purpose: Learning / Portfolio Project
+- Purpose: Personal Learning and Portfolio Development
 
 ---
 
-## Projects Included
+## Portfolio Structure
 
-### 1. Tenant Setup
+### 01 – Tenant Setup
 
-Initial exploration and configuration of the Microsoft 365 tenant.
+Introduction to the Microsoft 365 environment.
 
-- Admin Center navigation
-- Users overview
-- Licenses review
-- Roles exploration
+Topics covered:
 
-Folder: 01-Tenant-Setup
-
----
-
-### 2. User Management
-
-User lifecycle management in Microsoft 365.
-
-- Creating users
-- Assigning licenses
-- Verifying accounts
-- Active directory-style administration tasks
-
-Folder: 02-User-Management
+- Microsoft 365 Admin Center overview
+- Tenant structure
+- Active users
+- Licence management
+- Administrative roles
 
 ---
 
-## Key Skills Demonstrated
+### 02 – User Management
 
-- Microsoft 365 Admin Center navigation
-- User account lifecycle management
-- License assignment and understanding
-- Basic identity and access management (IAM)
-- IT documentation using Markdown and GitHub
-- Cloud SaaS administration fundamentals
+User lifecycle administration within Microsoft 365.
+
+Topics covered:
+
+- User creation
+- Licence assignment
+- Password reset
+- Block sign-in
+- User deletion
+- User restoration
 
 ---
 
-## Evidence-Based Learning
+### 03 – Groups
+
+Group administration and membership management.
+
+Topics covered:
+
+- Microsoft 365 Groups
+- Security Groups
+- Distribution Lists
+- Group ownership
+- Membership management
+
+---
+
+### 04 – Exchange Online
+
+Introduction to Exchange Online administration.
+
+Topics covered:
+
+- Shared mailboxes
+- Mail aliases
+- Automatic replies
+- Mail flow basics
+- Exchange administration fundamentals
+
+---
+
+### 05 – SharePoint
+
+SharePoint Online administration and document management.
+
+Topics covered:
+
+- Team sites
+- Document libraries
+- Folder structures
+- Permissions
+- Sharing controls
+- Version history
+
+---
+
+### 06 – Microsoft Teams
+
+Microsoft Teams administration and collaboration.
+
+Topics covered:
+
+- Team creation
+- Channel management
+- Membership administration
+- Meeting management
+- Collaboration settings
+
+---
+
+### 07 – Security
+
+Microsoft 365 security and identity management.
+
+Topics covered:
+
+- Multifactor Authentication (MFA)
+- Security Defaults
+- Password policies
+- Sign-in monitoring
+- Administrative roles
+
+---
+
+### 08 – PowerShell
+
+Microsoft 365 administration using PowerShell.
+
+Topics covered:
+
+- Microsoft Graph PowerShell
+- Exchange Online PowerShell
+- User management commands
+- Reporting commands
+- Administrative automation
+
+---
+
+## Skills Demonstrated
+
+- Microsoft 365 Administration
+- User and Licence Management
+- Identity and Access Management (IAM)
+- Exchange Online Administration
+- SharePoint Administration
+- Microsoft Teams Administration
+- Security Administration
+- PowerShell Fundamentals
+- Technical Documentation
+- GitHub and Markdown
+
+---
+
+## Documentation Standards
 
 Each project includes:
 
-- Step-by-step documentation
-- Screenshots from Microsoft 365 Admin Center
-- Structured IT-style reporting
-- Realistic administrative scenarios
-
----
-
-## Future Improvements
-
-This portfolio will continue to grow with:
-
-- Password reset and account recovery scenarios
-- Account lockout troubleshooting
-- Security role assignments
-- Microsoft Teams administration
-- Exchange Online basics
-- IT helpdesk ticket simulations
+- Objectives
+- Administrative tasks performed
+- Screenshots and evidence
+- Technical explanations
+- Key learnings
+- Skills demonstrated
 
 ---
 
 ## Purpose
 
-This repository is part of a learning journey toward a career in IT Support, Microsoft 365 Administration, and Cloud Operations.
+This portfolio supports my professional development towards roles such as:
+
+- IT Support Technician
+- Service Desk Analyst
+- Microsoft 365 Administrator
+- Junior Systems Administrator
+- Cloud Support Technician
 
 ---
 
 ## Notes
 
-This is a personal learning environment built for hands-on practice and skill development.
+This repository is a personal learning environment created for educational and portfolio purposes.
 
-All configurations are performed in a controlled test tenant.
+All activities are performed within a dedicated Microsoft 365 test tenant.
