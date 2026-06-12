@@ -27,13 +27,33 @@ Users require assigned licenses to access services.
 Admin roles control permissions across the tenant.
 Even small tenants replicate real enterprise structure.
 
-Screenshots
+## Screenshots
 
+### Microsoft 365 Admin Center Home
+Overview of the TechLab tenant dashboard after login.
 
-<img width="1856" height="896" alt="MS 365 Dashboard" src="https://github.com/user-attachments/assets/5079ca16-5686-4baa-81d6-deaca525e056" />
-Microsoft 365 Admin Center Dashboard
-Initial view of the TechLab tenant administration portal.
+![Admin Center Home](screenshots/admin-home.jpg)
 
+---
+
+### Active Users
+User management section showing available accounts in the tenant.
+
+![Active Users](screenshots/active-users.jpg)
+
+---
+
+### Licenses
+Overview of Microsoft 365 Business Basic licenses assigned to the tenant.
+
+![Licenses](screenshots/licenses.jpg)
+
+---
+
+### Admin Roles
+List of administrative roles available in the tenant (e.g., Global Admin, User Admin).
+
+![Admin Roles](screenshots/admin-roles.jpg)
 
 Next Step
 
