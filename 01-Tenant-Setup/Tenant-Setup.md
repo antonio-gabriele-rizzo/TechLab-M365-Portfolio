@@ -1,71 +1,93 @@
 # Tenant Setup – TechLab Microsoft 365
 
 ## Objective
-To document the initial setup and configuration of the Microsoft 365 tenant **TechLab**, and understand the Microsoft 365 Admin Center.
+
+To document the initial configuration and exploration of a Microsoft 365 tenant and gain familiarity with the Microsoft 365 Admin Center.
 
 ---
 
 ## Environment
-- Tenant Name: TechLab  
-- Subscription: Microsoft 365 Business Basic  
-- Platform: Microsoft 365 Admin Center  
+
+- Tenant Name: TechLab
+- Default Domain: techlab008.onmicrosoft.com
+- Subscription: Microsoft 365 Business Basic
+- Platform: Microsoft 365 Admin Center
+
+---
+
+## Overview
+
+A Microsoft 365 tenant represents an organization's dedicated cloud environment within Microsoft's services.
+
+The TechLab tenant was created as a learning environment to develop practical Microsoft 365 administration skills and document hands-on experience.
 
 ---
 
 ## Tasks Performed
 
 ### 1. Accessed Microsoft 365 Admin Center
-Logged in and reviewed the main dashboard.
+
+Logged into the Microsoft 365 Admin Center and reviewed the dashboard layout and navigation options available to administrators.
+
+Evidence:
+
+![Microsoft 365 Admin Center Home](screenshots/admin-home.jpg)
+
+---
 
 ### 2. Reviewed Active Users
-Checked the default admin account and tenant structure.
 
-### 3. Reviewed Licenses
-Examined available Microsoft 365 Business Basic licenses.
+Navigated to the Active Users section to understand how Microsoft 365 user accounts are managed.
 
-### 4. Explored Admin Roles
-Reviewed role hierarchy (Global Admin, User Admin, etc.).
-
----
-
-## Key Learnings
-- The Microsoft 365 Admin Center is the central management portal.
-- Users require assigned licenses to access services.
-- Admin roles control permissions across the tenant.
-- Even small tenants replicate real enterprise structure.
-
----
-
-## Screenshots
-
-### Microsoft 365 Admin Center Home
-Overview of the TechLab tenant dashboard after login.
-
-![Admin Center Home](screenshots/admin-home.jpg)
-
----
-
-### Active Users
-User management section showing available accounts in the tenant.
+Evidence:
 
 ![Active Users](screenshots/active-users.jpg)
 
 ---
 
-### Licenses
-Overview of Microsoft 365 Business Basic licenses assigned to the tenant.
+### 3. Reviewed Licence Management
 
-![Licenses](screenshots/licenses.jpg)
+Examined available Microsoft 365 licences and reviewed how licences are assigned to users.
 
----
+Evidence:
 
-### Admin Roles
-List of administrative roles available in the tenant (e.g., Global Administrator, User Administrator).
-
-![Admin Roles](screenshots/admin-roles.jpg)
+![Licences](screenshots/licenses.jpg)
 
 ---
 
-## Next Step
-### User Management
-Creating, editing, and managing user accounts in the TechLab Microsoft 365 tenant.
+### 4. Reviewed Administrative Roles
+
+Explored built-in Microsoft 365 administrative roles and their associated responsibilities.
+
+Evidence:
+
+![Administrative Roles](screenshots/admin-roles.jpg)
+
+---
+
+## Key Learnings
+
+- A Microsoft 365 tenant provides a dedicated cloud environment for an organisation.
+- The Microsoft 365 Admin Center serves as the primary administration portal.
+- User accounts require appropriate licences to access Microsoft 365 services.
+- Administrative roles control permissions and access within the tenant.
+- Understanding the tenant structure is essential before performing administrative tasks.
+
+---
+
+## Skills Demonstrated
+
+- Microsoft 365 Admin Center navigation
+- Tenant administration fundamentals
+- User management overview
+- Licence management awareness
+- Administrative role awareness
+- Technical documentation using GitHub and Markdown
+
+---
+
+## Next Project
+
+User Management
+
+The next project focuses on creating users, assigning licences, resetting passwords, blocking sign-in, and restoring deleted accounts.
