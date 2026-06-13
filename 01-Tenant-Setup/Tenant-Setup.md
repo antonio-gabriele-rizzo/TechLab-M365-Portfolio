@@ -37,7 +37,7 @@ After signing in, I reviewed the dashboard layout and navigation structure to un
 
 Evidence:
 
-![Microsoft 365 Admin Center Home](screenshots/admin-home.jpg)
+![Microsoft 365 Admin Center Home](screenshots/admin-home.png)
 
 ---
 
@@ -57,7 +57,7 @@ At the time of the initial tenant setup, only the administrative account existed
 
 Evidence:
 
-![Active Users](screenshots/active-users.jpg)
+![Active Users](screenshots/active-users.png)
 
 ---
 
@@ -76,7 +76,7 @@ Administrators must assign an appropriate licence before a user can access Micro
 
 Evidence:
 
-![Licences](screenshots/licenses.jpg)
+![Licences](screenshots/licenses.png)
 
 ---
 
@@ -97,7 +97,7 @@ This approach supports the Principle of Least Privilege by reducing unnecessary 
 
 Evidence:
 
-![Administrative Roles](screenshots/admin-roles.jpg)
+![Administrative Roles](screenshots/admin-roles.png)
 
 ---
 
