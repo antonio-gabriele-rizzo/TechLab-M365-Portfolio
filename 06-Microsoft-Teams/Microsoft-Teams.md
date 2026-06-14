@@ -371,21 +371,6 @@ Microsoft frequently updates the Teams interface, so administrators should focus
 
 ---
 
-## Screenshots
-
-- `teams-overview.png`
-- `create-channel.png`
-- `channel-created.png`
-- `post-message.png`
-- `file-shared.png`
-- `manage-team.png`
-- `team-settings.png`
-- `calendar-overview.png`
-- `meeting-details.png`
-- `meeting-created.png`
-
----
-
 ## Conclusion
 
 This project demonstrated the administration and collaboration capabilities of Microsoft Teams within Microsoft 365. Activities included channel creation, team management, membership administration, file sharing, collaboration settings review, meeting scheduling, and Teams integration with SharePoint Online. The exercise provided practical experience with one of the most widely used collaboration platforms in modern enterprise environments.
