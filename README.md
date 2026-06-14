@@ -116,6 +116,8 @@ Topics covered:
 - Membership administration
 - Meeting management
 - Collaboration settings
+- File sharing
+- Team collaboration
 
 ---
 
