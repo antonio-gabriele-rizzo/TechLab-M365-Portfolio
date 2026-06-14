@@ -27,9 +27,9 @@ Microsoft Teams was accessed through the Microsoft 365 App Launcher.
 2. Click the App Launcher (9 dots).
 3. Select **Microsoft Teams**.
 
-### Screenshot
+### Observation
 
-![Teams Overview](screenshots/teams-overview.png)
+Microsoft Teams provides a centralised platform for communication, collaboration, meetings, and file sharing within Microsoft 365.
 
 ---
 
