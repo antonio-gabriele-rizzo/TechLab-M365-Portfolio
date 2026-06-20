@@ -1,12 +1,40 @@
-# TechLab – Microsoft 365 Administration Portfolio
+# TechLab Microsoft 365 Portfolio
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20365-0078D4)
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
+![Portfolio](https://img.shields.io/badge/Portfolio-Project-success)
 
 ## About This Project
 
-Welcome to my TechLab Microsoft 365 Administration Portfolio.
+Welcome to my TechLab Microsoft 365 Portfolio.
 
 This repository documents my hands-on learning journey in Microsoft 365 administration using a dedicated Microsoft 365 Business Basic tenant.
 
-The objective of this project is to develop practical skills in Microsoft 365 administration, user management, collaboration services, security, and PowerShell automation while building a portfolio of documented administrative tasks.
+The purpose of this project is threefold:
+
+1. Develop practical Microsoft 365 administration skills.
+2. Build a professional portfolio demonstrating real-world administrative tasks.
+3. Create a personal technical reference and learning resource that can be revisited in the future.
+
+Every section is documented using step-by-step procedures, screenshots, explanations, and practical examples to support both learning and future reference.
+
+---
+
+## TechLab Portfolio Series
+
+This repository is part of the TechLab portfolio series, a collection of hands-on IT administration projects focused on Microsoft cloud technologies, identity management, endpoint administration, automation, networking, and IT support.
+
+### Current Projects
+
+- TechLab Microsoft 365 Portfolio
+- TechLab Microsoft Entra ID Administration Portfolio
+
+### Planned Projects
+
+- TechLab Microsoft Intune Administration Portfolio
+- TechLab Active Directory Administration Portfolio
+- TechLab Service Desk Troubleshooting Portfolio
 
 ---
 
@@ -18,20 +46,22 @@ The objective of this project is to develop practical skills in Microsoft 365 ad
 - Explore security and identity management concepts
 - Gain experience with administrative PowerShell tools
 - Build professional technical documentation using GitHub and Markdown
+- Create a reusable Microsoft 365 administration reference guide
 
 ---
 
 ## Environment
 
-- Tenant Name: TechLab
-- Default Domain: techlab008.onmicrosoft.com
-- Subscription: Microsoft 365 Business Basic
-- Platform: Microsoft 365 Admin Center
-- Purpose: Personal Learning and Portfolio Development
+| Setting | Value |
+|----------|----------|
+| Tenant Name | TechLab |
+| Subscription | Microsoft 365 Business Basic |
+| Platform | Microsoft 365 Admin Center |
+| Purpose | Learning, Documentation and Portfolio Development |
 
 ---
 
-## Portfolio Structure
+## Project Structure
 
 ### 01 – Tenant Setup
 
@@ -44,6 +74,11 @@ Topics covered:
 - Active users
 - Licence management
 - Administrative roles
+
+Skills developed:
+
+- Microsoft 365 navigation
+- Tenant administration fundamentals
 
 ---
 
@@ -60,6 +95,12 @@ Topics covered:
 - User deletion
 - User restoration
 
+Skills developed:
+
+- User lifecycle management
+- Account administration
+- Identity management
+
 ---
 
 ### 03 – Groups
@@ -73,6 +114,12 @@ Topics covered:
 - Distribution Lists
 - Group ownership
 - Membership management
+
+Skills developed:
+
+- Group administration
+- Access management
+- Permission management
 
 ---
 
@@ -88,6 +135,12 @@ Topics covered:
 - Mail flow basics
 - Exchange administration fundamentals
 
+Skills developed:
+
+- Exchange Online administration
+- Mailbox management
+- Email administration
+
 ---
 
 ### 05 – SharePoint
@@ -102,6 +155,12 @@ Topics covered:
 - Permissions
 - Sharing controls
 - Version history
+
+Skills developed:
+
+- SharePoint administration
+- Document management
+- Permission management
 
 ---
 
@@ -119,6 +178,12 @@ Topics covered:
 - File sharing
 - Team collaboration
 
+Skills developed:
+
+- Teams administration
+- Collaboration management
+- User support
+
 ---
 
 ### 07 – Security
@@ -132,6 +197,12 @@ Topics covered:
 - Password policies
 - Sign-in monitoring
 - Administrative roles
+
+Skills developed:
+
+- Security administration
+- Identity protection
+- Access control
 
 ---
 
@@ -147,37 +218,63 @@ Topics covered:
 - Reporting commands
 - Administrative automation
 
+Skills developed:
+
+- PowerShell administration
+- Automation
+- Administrative reporting
+
+---
+
+## Documentation Methodology
+
+Each section follows a consistent documentation structure:
+
+- Objectives
+- Step-by-step procedures
+- Screenshots and evidence
+- Technical explanations
+- Administrative tasks performed
+- Key learnings
+- Skills developed
+
+The goal is to ensure that every documented task can be reproduced in the future and used as a practical reference guide.
+
 ---
 
 ## Skills Demonstrated
 
-- Microsoft 365 Administration
+### Microsoft 365 Administration
+
 - User and Licence Management
-- Identity and Access Management (IAM)
 - Exchange Online Administration
 - SharePoint Administration
 - Microsoft Teams Administration
+
+### Identity and Security
+
+- Identity and Access Management (IAM)
+- Multifactor Authentication (MFA)
+- Administrative Roles
 - Security Administration
-- PowerShell Fundamentals
+
+### Automation
+
+- Microsoft Graph PowerShell
+- Exchange Online PowerShell
+- Administrative Reporting
+- Administrative Automation
+
+### Professional Skills
+
 - Technical Documentation
-- GitHub and Markdown
+- GitHub Version Control
+- Markdown Documentation
+- Troubleshooting Methodology
 
 ---
 
-## Documentation Standards
-
-Each project includes:
-
-- Objectives
-- Administrative tasks performed
-- Screenshots and evidence
-- Technical explanations
-- Key learnings
-- Skills demonstrated
-
----
-
-## Purpose
+## Career Relevance
 
 This portfolio supports my professional development towards roles such as:
 
@@ -194,3 +291,24 @@ This portfolio supports my professional development towards roles such as:
 This repository is a personal learning environment created for educational and portfolio purposes.
 
 All activities are performed within a dedicated Microsoft 365 test tenant.
+
+---
+
+## Author
+
+**Antonio Gabriele Rizzo**
+
+- CompTIA Tech+
+- CompTIA A+
+- Junior Network Engineer
+- Microsoft 365 Administration
+- Microsoft Entra ID Administration
+- Aspiring Cloud and Infrastructure Professional
+
+---
+
+## Connect
+
+GitHub Portfolio:
+
+https://github.com/antonio-gabriele-rizzo
