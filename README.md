@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo/techlab365-logo.png" alt="TechLab365" width="350">
+  <img src="logo/techlab365-logo.png" alt="TechLab365" width="250">
 </p>
 
 <h1 align="center">
