@@ -1,7 +1,7 @@
 # TechLab365 – Microsoft 365 Administration Portfolio
 
 <p align="center">
-  <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="900">
+  <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="600">
 </p>
 
 ![Microsoft 365](https://img.shields.io/badge/Microsoft-365-0078D4?style=for-the-badge&logo=microsoft)
