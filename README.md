@@ -1,18 +1,14 @@
-<p align="center">
-  <img src="logo/techlab365-logo.png" alt="TechLab365" width="250">
-</p>
+<table align="center">
+<tr>
+<td>
+<img src="logo/techlab365-logo.png" width="250">
+</td>
 
-<h1 align="center">
-Microsoft 365 Administration Portfolio
-</h1>
-
-<p align="center">
-
-![Microsoft 365](...)
-![Platform](...)
-![Documentation](...)
-
-</p>
+<td style="padding-left:20px;">
+<h1>Microsoft 365 Administration Portfolio</h1>
+</td>
+</tr>
+</table>
 
 ---
 
