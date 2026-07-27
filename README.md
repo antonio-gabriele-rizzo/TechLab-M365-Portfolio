@@ -1,4 +1,4 @@
-# TechLab365 – Microsoft 365 Administration Portfolio
+<h1 align="center">TechLab365 – Microsoft 365 Administration Portfolio</h1>
 
 <p align="center">
   <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="350">
