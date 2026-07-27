@@ -6,11 +6,6 @@
   <img src="logo/microsoft365-title.png" width="700">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Microsoft-365-0078D4?style=for-the-badge&logo=microsoft">
-  <img src="https://img.shields.io/badge/Documentation-Markdown-blue?style=for-the-badge">
-</p>
-
 ---
 
 # Project Overview
