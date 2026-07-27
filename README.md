@@ -1,13 +1,14 @@
 # TechLab365 – Microsoft 365 Administration Portfolio
 
 <p align="center">
-  <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="400">
+  <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="350">
 </p>
 
-![Microsoft 365](https://img.shields.io/badge/Microsoft-365-0078D4?style=for-the-badge&logo=microsoft)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Microsoft%20365-success?style=for-the-badge)
-![Documentation](https://img.shields.io/badge/Documentation-Markdown-blue?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-365-0078D4?style=for-the-badge&logo=microsoft">
+  <img src="https://img.shields.io/badge/Platform-Microsoft%20365-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Documentation-Markdown-blue?style=for-the-badge">
+</p>
 
 ---
 
