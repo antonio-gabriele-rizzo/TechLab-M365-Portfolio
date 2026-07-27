@@ -1,314 +1,377 @@
-# TechLab Microsoft 365 Portfolio
+# TechLab365 – Microsoft 365 Administration Portfolio
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Platform](https://img.shields.io/badge/Platform-Microsoft%20365-0078D4)
-![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE)
-![Portfolio](https://img.shields.io/badge/Portfolio-Project-success)
+<p align="center">
+  <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="900">
+</p>
 
-## About This Project
-
-Welcome to my TechLab Microsoft 365 Portfolio.
-
-This repository documents my hands-on learning journey in Microsoft 365 administration using a dedicated Microsoft 365 Business Basic tenant.
-
-The purpose of this project is threefold:
-
-1. Develop practical Microsoft 365 administration skills.
-2. Build a professional portfolio demonstrating real-world administrative tasks.
-3. Create a personal technical reference and learning resource that can be revisited in the future.
-
-Every section is documented using step-by-step procedures, screenshots, explanations, and practical examples to support both learning and future reference.
+![Microsoft 365](https://img.shields.io/badge/Microsoft-365-0078D4?style=for-the-badge&logo=microsoft)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Microsoft%20365-success?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/Documentation-Markdown-blue?style=for-the-badge)
 
 ---
 
-## TechLab Portfolio Series
+# Project Overview
 
-This repository is part of the TechLab portfolio series, a collection of hands-on IT administration projects focused on Microsoft cloud technologies, identity management, endpoint administration, automation, networking, and IT support.
+This repository documents my hands-on Microsoft 365 Administration laboratory, developed within a dedicated Microsoft 365 Business Basic tenant to gain practical experience with Microsoft cloud administration.
 
-### Current Projects
+The project demonstrates the day-to-day administrative responsibilities of a Microsoft 365 Administrator, including tenant configuration, identity management, licence administration, Exchange Online, SharePoint Online, Microsoft Teams, security management and PowerShell automation.
 
-- TechLab Microsoft 365 Portfolio
-- TechLab Microsoft Entra ID Administration Portfolio
+Rather than simply describing Microsoft 365 features, every chapter documents practical configuration activities carried out within a working Microsoft 365 tenant. Each exercise is supported by detailed explanations and annotated screenshots, demonstrating how administrative tasks are performed in a real-world environment.
 
-### Planned Projects
-
-- TechLab Microsoft Intune Administration Portfolio
-- TechLab Active Directory Administration Portfolio
-- TechLab Service Desk Troubleshooting Portfolio
+This repository represents the first project within my **TechLab365 Microsoft Cloud Administration Portfolio**, providing the foundation for the Microsoft Entra ID Administration and Microsoft Intune Administration repositories that build upon the same Microsoft cloud environment.
 
 ---
 
-## Objectives
+# Project Objectives
 
-- Understand Microsoft 365 administration fundamentals
-- Develop practical user and licence management skills
-- Learn Microsoft 365 collaboration services
-- Explore security and identity management concepts
-- Gain experience with administrative PowerShell tools
-- Build professional technical documentation using GitHub and Markdown
-- Create a reusable Microsoft 365 administration reference guide
+Throughout this project, I developed practical experience with Microsoft 365 administration by completing a series of structured hands-on exercises.
+
+The primary objectives of this repository were to:
+
+- Understand Microsoft 365 administration fundamentals.
+- Configure and administer a Microsoft 365 tenant.
+- Manage users and Microsoft 365 licences.
+- Configure Microsoft 365 Groups.
+- Administer Exchange Online.
+- Manage SharePoint Online sites and permissions.
+- Configure Microsoft Teams.
+- Explore Microsoft 365 security capabilities.
+- Perform administrative tasks using Microsoft Graph PowerShell.
+- Produce professional technical documentation suitable for a GitHub portfolio.
 
 ---
 
-## Environment
+# Skills Demonstrated
 
-| Setting | Value |
-|----------|----------|
-| Tenant Name | TechLab |
+Throughout this project I demonstrate practical experience with:
+
+- Microsoft 365 Administration
+- Microsoft 365 Tenant Administration
+- User Lifecycle Management
+- Licence Administration
+- Microsoft 365 Groups
+- Exchange Online Administration
+- SharePoint Online Administration
+- Microsoft Teams Administration
+- Identity and Access Management (IAM)
+- Microsoft Graph PowerShell
+- Administrative Automation
+- Security Administration
+- Technical Documentation
+- GitHub Portfolio Development
+
+---
+
+# Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Microsoft 365 Business Basic | Microsoft cloud productivity platform |
+| Microsoft 365 Admin Center | Tenant administration |
+| Exchange Online | Email administration |
+| SharePoint Online | Document collaboration |
+| Microsoft Teams | Collaboration and communication |
+| Microsoft Entra ID | Identity and access management |
+| Microsoft Graph PowerShell | Administrative automation |
+| GitHub | Version control and portfolio hosting |
+| Markdown | Technical documentation |
+
+---
+
+# Lab Environment
+
+| Component | Details |
+|-----------|---------|
+| Tenant | TechLab |
 | Subscription | Microsoft 365 Business Basic |
-| Platform | Microsoft 365 Admin Center |
-| Purpose | Learning, Documentation and Portfolio Development |
+| Administration Portal | Microsoft 365 Admin Center |
+| Identity Platform | Microsoft Entra ID |
+| Documentation | Markdown |
+| Version Control | GitHub |
 
 ---
 
-## Project Structure
+# Repository Structure
 
-### 01 – Tenant Setup
-
-Introduction to the Microsoft 365 environment.
-
-Topics covered:
-
-- Microsoft 365 Admin Center overview
-- Tenant structure
-- Active users
-- Licence management
-- Administrative roles
-
-Skills developed:
-
-- Microsoft 365 navigation
-- Tenant administration fundamentals
+```text
+TechLab365-Microsoft-365-Administration-Portfolio
+│
+├── README.md
+├── logo
+│   └── techlab365-logo.png
+│
+├── 01-Tenant-Setup
+├── 02-User-Management
+├── 03-Groups
+├── 04-Exchange-Online
+├── 05-SharePoint
+├── 06-Microsoft-Teams
+├── 07-Security
+└── 08-PowerShell
+```
 
 ---
 
-### 02 – User Management
+# Chapter Overview
 
-User lifecycle administration within Microsoft 365.
+## 01 – Creating the Microsoft 365 Lab Environment
 
-Topics covered:
+The repository begins by creating a dedicated Microsoft 365 laboratory using a Microsoft 365 Business Basic subscription. This chapter introduces the Microsoft 365 ecosystem, explains the available subscription plans and demonstrates how to provision a new tenant that will be used throughout the remainder of the project.
 
-- User creation
+### Topics covered
+
+- Microsoft 365 overview
+- Microsoft 365 subscription plans
+- Microsoft 365 Business Basic
+- Tenant creation
+- Initial tenant configuration
+- Microsoft 365 Admin Center
+- Tenant verification
+
+### Skills developed
+
+- Microsoft 365 administration
+- Tenant provisioning
+- Microsoft cloud fundamentals
+- Administrative environment preparation
+
+---
+
+## 02 – User Management
+
+Managing user identities is one of the fundamental responsibilities of a Microsoft 365 Administrator. This chapter demonstrates how to create users, assign licences, manage passwords and administer user accounts using the Microsoft 365 Admin Center.
+
+### Topics covered
+
+- Microsoft 365 users
+- Creating user accounts
+- User properties
+- Password management
 - Licence assignment
-- Password reset
-- Block sign-in
-- User deletion
-- User restoration
+- User administration
 
-Skills developed:
+### Skills developed
 
 - User lifecycle management
-- Account administration
+- Licence administration
 - Identity management
+- Microsoft 365 administration
 
 ---
 
-### 03 – Groups
+## 03 – Microsoft 365 Groups
 
-Group administration and membership management.
+Microsoft 365 Groups provide a central mechanism for collaboration across Microsoft services. This chapter demonstrates how to create and manage Microsoft 365 Groups while reviewing the resources that are automatically provisioned, including Outlook, SharePoint and Microsoft Teams integration.
 
-Topics covered:
+### Topics covered
 
 - Microsoft 365 Groups
-- Security Groups
-- Distribution Lists
-- Group ownership
-- Membership management
-
-Skills developed:
-
+- Group creation
+- Group membership
+- Group owners
+- Microsoft 365 collaborative resources
 - Group administration
-- Access management
-- Permission management
+
+### Skills developed
+
+- Collaboration management
+- Microsoft 365 Groups administration
+- Resource provisioning
+- Administrative planning
 
 ---
 
-### 04 – Exchange Online
+## 04 – Exchange Online
 
-Introduction to Exchange Online administration.
+Exchange Online provides enterprise email services within Microsoft 365. This chapter demonstrates mailbox administration, shared mailboxes, distribution lists and mail flow configuration using the Exchange Admin Center.
 
-Topics covered:
+### Topics covered
 
+- Exchange Online
+- Exchange Admin Center
+- Mailbox management
 - Shared mailboxes
-- Mail aliases
-- Automatic replies
-- Mail flow basics
-- Exchange administration fundamentals
+- Distribution lists
+- Mail flow
+- Exchange administration
 
-Skills developed:
+### Skills developed
 
 - Exchange Online administration
-- Mailbox management
-- Email administration
+- Email management
+- Mailbox administration
+- Messaging services
 
 ---
 
-### 05 – SharePoint
+## 05 – SharePoint Online
 
-SharePoint Online administration and document management.
+SharePoint Online provides the document management and collaboration platform within Microsoft 365. This chapter demonstrates how SharePoint sites are created, how document libraries are managed and how permissions can be configured to enable secure collaboration across an organisation.
 
-Topics covered:
+### Topics covered
 
+- SharePoint Online
+- SharePoint Admin Center
 - Team sites
+- Communication sites
 - Document libraries
-- Folder structures
-- Permissions
-- Sharing controls
-- Version history
+- Site permissions
+- SharePoint administration
 
-Skills developed:
+### Skills developed
 
 - SharePoint administration
 - Document management
+- Site administration
 - Permission management
 
 ---
 
-### 06 – Microsoft Teams
+## 06 – Microsoft Teams
 
-Microsoft Teams administration and collaboration.
+Microsoft Teams brings together chat, meetings, calling and collaboration into a single platform. This chapter explores the Microsoft Teams Admin Center, demonstrates the creation of Teams and Channels and reviews the administrative settings available for collaboration and communication.
 
-Topics covered:
+### Topics covered
 
+- Microsoft Teams
+- Microsoft Teams Admin Center
 - Team creation
-- Channel management
-- Membership administration
-- Meeting management
-- Collaboration settings
-- File sharing
-- Team collaboration
-
-Skills developed:
-
+- Channels
+- Team membership
+- Teams policies
 - Teams administration
+
+### Skills developed
+
+- Microsoft Teams administration
 - Collaboration management
-- User support
+- Team administration
+- Microsoft 365 collaboration
 
 ---
 
-### 07 – Security
+## 07 – Security
 
-Microsoft 365 security and identity management.
+Security is a fundamental responsibility of every Microsoft 365 Administrator. This chapter introduces the security capabilities available within Microsoft 365, demonstrates how to access the Microsoft Defender portal and reviews the administrative tools used to help secure users, identities and organisational data.
 
-Topics covered:
+### Topics covered
 
-- Multifactor Authentication (MFA)
-- Security Defaults
-- Password policies
-- Sign-in monitoring
-- Administrative roles
-
-Skills developed:
-
+- Microsoft 365 security
+- Microsoft Defender portal
+- Secure Score
+- Security recommendations
+- Threat protection overview
 - Security administration
-- Identity protection
-- Access control
+
+### Skills developed
+
+- Microsoft 365 security administration
+- Security monitoring
+- Microsoft Defender
+- Security best practices
 
 ---
 
-### 08 – PowerShell
+## 08 – Microsoft Graph PowerShell
 
-Microsoft 365 administration using PowerShell.
+PowerShell enables administrators to automate repetitive tasks and manage Microsoft 365 services from the command line. This chapter introduces Microsoft Graph PowerShell, demonstrates how to establish a connection to Microsoft 365 and perform common administrative operations using PowerShell cmdlets.
 
-Topics covered:
+### Topics covered
 
 - Microsoft Graph PowerShell
-- Exchange Online PowerShell
-- User management commands
-- Reporting commands
+- Installing Microsoft Graph PowerShell
+- Connecting to Microsoft 365
+- Authentication
+- Microsoft Graph cmdlets
 - Administrative automation
 
-Skills developed:
-
-- PowerShell administration
-- Automation
-- Administrative reporting
-
----
-
-## Documentation Methodology
-
-Each section follows a consistent documentation structure:
-
-- Objectives
-- Step-by-step procedures
-- Screenshots and evidence
-- Technical explanations
-- Administrative tasks performed
-- Key learnings
-- Skills developed
-
-The goal is to ensure that every documented task can be reproduced in the future and used as a practical reference guide.
-
----
-
-## Skills Demonstrated
-
-### Microsoft 365 Administration
-
-- User and Licence Management
-- Exchange Online Administration
-- SharePoint Administration
-- Microsoft Teams Administration
-
-### Identity and Security
-
-- Identity and Access Management (IAM)
-- Multifactor Authentication (MFA)
-- Administrative Roles
-- Security Administration
-
-### Automation
+### Skills developed
 
 - Microsoft Graph PowerShell
-- Exchange Online PowerShell
-- Administrative Reporting
-- Administrative Automation
-
-### Professional Skills
-
-- Technical Documentation
-- GitHub Version Control
-- Markdown Documentation
-- Troubleshooting Methodology
+- Administrative automation
+- Scripting fundamentals
+- Microsoft 365 management
 
 ---
 
-## Career Relevance
+# Learning Outcomes
 
-This portfolio supports my professional development towards roles such as:
+By completing this repository, I gained practical experience across the core administrative areas of Microsoft 365 while developing a solid understanding of how Microsoft's cloud services integrate to support modern workplace productivity and collaboration.
 
-- IT Support Technician
-- Service Desk Analyst
-- Microsoft 365 Administrator
-- Junior Systems Administrator
-- Cloud Support Technician
+The key learning outcomes include:
+
+- Understanding the Microsoft 365 ecosystem and subscription models.
+- Provisioning and configuring a Microsoft 365 tenant.
+- Managing users, licences and administrative roles.
+- Creating and administering Microsoft 365 Groups.
+- Managing Exchange Online mailboxes and messaging services.
+- Administering SharePoint Online sites and document libraries.
+- Configuring Microsoft Teams for collaboration and communication.
+- Exploring Microsoft 365 security capabilities and Microsoft Defender.
+- Automating administrative tasks using Microsoft Graph PowerShell.
+- Producing professional technical documentation suitable for a GitHub portfolio.
 
 ---
 
-## Notes
+# Repository Prerequisites
 
-This repository is a personal learning environment created for educational and portfolio purposes.
+To reproduce this laboratory, the following components are recommended:
 
-All activities are performed within a dedicated Microsoft 365 test tenant.
+- Microsoft 365 Business Basic subscription (or equivalent)
+- Global Administrator account
+- Modern web browser
+- Internet connection
+- Microsoft Graph PowerShell SDK
+- Windows PowerShell or PowerShell 7
+- GitHub account (for documentation and version control)
+
+Although this laboratory was developed using a Microsoft 365 Business Basic subscription, the administrative concepts demonstrated throughout this repository are directly applicable to larger Microsoft 365 environments.
 
 ---
 
-## Author
+# Related Repositories
+
+This repository forms part of my **TechLab365 Microsoft Cloud Administration Portfolio**.
+
+The complete learning path includes:
+
+- **TechLab365 – Microsoft 365 Administration Portfolio** *(this repository)*
+- **TechLab365 – Microsoft Entra ID Administration Portfolio**
+- **TechLab365 – Microsoft Intune Administration Portfolio**
+
+Together, these repositories demonstrate my progression from Microsoft 365 tenant administration through identity management to modern endpoint management using Microsoft Intune.
+
+---
+
+# Conclusion
+
+This repository documents the practical administration of a Microsoft 365 environment, covering the core services and day-to-day responsibilities of a Microsoft 365 Administrator.
+
+Beginning with tenant creation and continuing through user management, collaboration services, security administration and PowerShell automation, each chapter builds practical experience by documenting real administrative tasks performed within a working Microsoft 365 tenant.
+
+Beyond developing technical skills, this project also strengthened my ability to produce structured technical documentation using Markdown and GitHub, creating a portfolio that accurately reflects hands-on experience with Microsoft cloud technologies.
+
+This repository provides the foundation for the subsequent Microsoft Entra ID Administration and Microsoft Intune Administration projects, completing the TechLab365 Microsoft Cloud Administration learning path.
+
+---
+
+# Author
 
 **Antonio Gabriele Rizzo**
 
-- CompTIA Tech+
-- CompTIA A+
-- Junior Network Engineer
+TechLab365 – Microsoft Cloud Administration Learning Series
+
 - Microsoft 365 Administration
 - Microsoft Entra ID Administration
-- Aspiring Cloud and Infrastructure Professional
+- Microsoft Intune Administration
 
 ---
 
-## Connect
+# License
 
-GitHub Portfolio:
+This project is published for educational and portfolio purposes.
 
-https://github.com/antonio-gabriele-rizzo
+The documentation is based on hands-on experience gained while building a Microsoft 365 laboratory using Microsoft 365 Business Basic and Microsoft cloud services.
+
+Microsoft, Microsoft 365, Microsoft Entra ID, Microsoft Teams, SharePoint, Exchange Online and Microsoft Graph are trademarks of Microsoft Corporation.
