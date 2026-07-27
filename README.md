@@ -1,4 +1,8 @@
-<h1 align="center">TechLab365 – Microsoft 365 Administration Portfolio</h1>
+<div align="center">
+
+# TechLab365 – Microsoft 365 Administration Portfolio
+
+</div>
 
 <p align="center">
   <img src="logo/techlab365-logo.png" alt="TechLab365 Logo" width="350">
@@ -12,7 +16,7 @@
 
 ---
 
-# Project Overview
+## Project Overview
 
 This repository documents my hands-on Microsoft 365 Administration laboratory, developed within a dedicated Microsoft 365 Business Basic tenant to gain practical experience with Microsoft cloud administration.
 
